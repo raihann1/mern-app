@@ -19,6 +19,7 @@ try {
   );
 } catch(err) {
   console.error(err);
+  console.log("test");
 }
 
 let db = client.db("appointments");
